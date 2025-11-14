@@ -12,10 +12,14 @@ public static void main(String[] args) {
         System.out.println ("Digues un numero entre el 1 i el 10");     
         System.out.println ("Introdueix un numero: ");
         int numero;
-        int randomNum = (int)(Math.random() * 11);  // 0 to 10
+        int randomNum = (int)(Math.random() * 11);  
         do {
         numero = llegir.nextInt();
         System.out.println ("Has esollit el numero : "+ numero);
+
+        if (randomnum != numero){
+              System.out.println ("Has fallat"); 
+        }
         }while (!(numero == randomNum));
         System.out.println ("Has encertat ole tu");
 } 
