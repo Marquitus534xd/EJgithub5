@@ -8,11 +8,11 @@ import java.util.Scanner;
 
 public class EJgithub5 {
 public static void main(String[] args) {
+        int numero3;
         Scanner llegir = new Scanner(System.in);
         System.out.println ("Digues un numero entre el 1 i el 10");     
         System.out.println ("Introdueix un numero: ");
         int numero;
-<<<<<<< HEAD
         int randomNum = (int)(Math.random() * 11);  // 0 to 10
         do {
         numero = llegir.nextInt();
@@ -21,7 +21,3 @@ public static void main(String[] args) {
         System.out.println ("Has encertat ole tu");
 } 
 }
-=======
-} 
-}
->>>>>>> b51f51dbddee5e16252c9f7d2e66377d1cbc8097
